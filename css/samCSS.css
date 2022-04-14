@@ -1,0 +1,23 @@
+h1 {
+  overflow-x: hidden;
+  font-size: 40px;
+  position: relative;
+  padding: 100px;
+  
+  text-align: center;
+    /*text gradiant*/
+      background: rgb(0,64,255);
+      background: linear-gradient(315deg, rgba(0,64,255,1), rgba(0,0,0,1));
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    
+}
+#he {
+    position: absolute;
+    left: 0px;
+    top:0px;
+    font-size: 20px;
+    opacity: 0.75;
+    /*transition: left 5s linear;*/
+  }
